@@ -165,7 +165,7 @@ Inside the chunk add an input panel which will allow you to collect information 
 In this case we can ask the user to select a time frame of films to include in the visual.
 
 ```
-{r type, echo=FALSE}
+{r top movies, echo=FALSE}
 inputPanel(
 
   selectInput("filmtype", label = "Type of film:",
